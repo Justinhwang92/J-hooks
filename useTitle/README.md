@@ -1,4 +1,4 @@
-# @jooks/use-title
+# @j-hooks/use-title
 
 React Hook to update your document's title.
 
@@ -6,20 +6,22 @@ React Hook to update your document's title.
 
 #### yarn
 
-`yarn add @jooks/use-title`
+`yarn add @j-hooks/use-title`
 
 #### npm
 
-`npm i @jooks/use-title`
+`npm i @j-hooks/use-title`
 
 ## Usage
 
 ```js
 import React from "react";
-import useTitle from "@jooks/use-title";
+import useTitle from "@j-hooks/use-title";
 
 function App() {
   useTitle("Welcome");
+  // const titleUpdater = useTitle("Loading...");
+  // setTimeout(()=>titleUpdater("Home"), 5000);
   return <h1>Welcome</h1>;
 }
 ```
