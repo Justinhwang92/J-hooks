@@ -1,4 +1,4 @@
-# @jooks/use-network
+# @j-hooks/use-network
 
 React Hook to listen when the user goes online or offline.
 
@@ -6,20 +6,20 @@ React Hook to listen when the user goes online or offline.
 
 #### yarn
 
-`yarn add @jooks/use-network`
+`yarn add @j-hooks/use-network`
 
 #### npm
 
-`npm i @jooks/use-network`
+`npm i @j-hooks/use-network`
 
 ## Usage
 
 ```js
 import React from "react";
-import useNetwork from "@jooks/use-network";
+import useNetwork from "@j-hooks/use-network";
 
 function App() {
-  const onNetworkChange = isOnline =>
+  const onNetworkChange = (isOnline) =>
     console.log(isOnline ? "We are back online" : "We just got offline");
   const isOnline = useNetwork(onNetworkChange);
   return <h1>{isOnline ? "We are online" : "We are offline"}</h1>;

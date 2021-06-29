@@ -1,10 +1,10 @@
 # Usage
 
 ```js
-import useInput from "@jooks/use-input"
+import useInput from "@j-hooks/use-input";
 
 const App = () => {
-  const validator = value => !value.includes("@");
+  const validator = (value) => !value.includes("@");
   const name = useInput("Mr. ", validator);
   return (
     <div className="App">

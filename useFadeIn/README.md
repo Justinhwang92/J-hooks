@@ -1,4 +1,4 @@
-# @jooks/use-fade-in
+# @j-hooks/use-fade-in
 
 React Hook to fade in any element.
 
@@ -6,17 +6,17 @@ React Hook to fade in any element.
 
 #### yarn
 
-`yarn add @jooks/use-fade-in`
+`yarn add @j-hooks/use-fade-in`
 
 #### npm
 
-`npm i @jooks/use-fade-in`
+`npm i @j-hooks/use-fade-in`
 
 ## Usage
 
 ```js
 import React from "react";
-import useFadeIn from "@jooks/use-fade-in";
+import useFadeIn from "@j-hooks/use-fade-in";
 
 function App() {
   const fadeIn = useFadeIn(5, 10);

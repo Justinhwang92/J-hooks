@@ -1,4 +1,4 @@
-# @jooks/use-hover
+# @j-hooks/use-hover
 
 React Hook to detect a hover on an any React Element
 
@@ -6,22 +6,22 @@ React Hook to detect a hover on an any React Element
 
 #### yarn
 
-`yarn add @jooks/use-hover`
+`yarn add @j-hooks/use-hover`
 
 #### npm
 
-`npm i @jooks/use-hover`
+`npm i @j-hooks/use-hover`
 
 ## Usage
 
 ```js
 import React from "react";
-import useHover from "@jooks/use-hover";
+import useHover from "@j-hooks/use-hover";
 
 function App() {
   const onHover = () => console.log("Somebody hovered!");
   const markedRef = useClick(onHover);
-  return <h1 ref={markedRef}>Hello jooks</h1>;
+  return <h1 ref={markedRef}>Hello j-hooks</h1>;
 }
 ```
 

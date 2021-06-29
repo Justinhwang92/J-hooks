@@ -1,4 +1,4 @@
-# @jooks/use-fullscreen
+# @j-hooks/use-fullscreen
 
 React Hook to make any element go Fullscreen
 
@@ -6,20 +6,20 @@ React Hook to make any element go Fullscreen
 
 #### yarn
 
-`yarn add @jooks/use-fullscreen`
+`yarn add @j-hooks/use-fullscreen`
 
 #### npm
 
-`npm i @jooks/use-fullscreen`
+`npm i @j-hooks/use-fullscreen`
 
 ## Usage
 
 ```js
 import React from "react";
-import useFullscreen from "@jooks/use-fullscreen";
+import useFullscreen from "@j-hooks/use-fullscreen";
 
 function App() {
-  const onChange = isFull =>
+  const onChange = (isFull) =>
     console.log(isFull ? "We are in Fullscreen" : "We are not in Fullscreen");
   const { element, triggerFull, exitFull } = useFullscreen(onChange);
   return (
