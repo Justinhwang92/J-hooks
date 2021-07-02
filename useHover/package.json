@@ -1,0 +1,22 @@
+{
+  "name": "@j-hooks/use-hover",
+  "version": "1.0.0",
+  "description": "React Hook to detect a hover on an any React Element",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Justinhwang92/React_hooks/tree/master/useHover"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "hover",
+    "usehover"
+  ],
+  "author": "Soonkwon Justin Hwang",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
