@@ -1,0 +1,28 @@
+{
+  "name": "@j-hooks/use-before-leave",
+  "version": "1.0.0",
+  "description": "React Hook to execute a function when the mouse leaves the page. Useful to show a popup or for analytics.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justinhwang92/React_hooks.git#master"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "leave",
+    "beforeleave",
+    "unload",
+    "mouseleave"
+  ],
+  "author": "Soonkwon Justin Hwang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Justinhwang92/React_hooks/issues"
+  },
+  "homepage": "https://github.com/Justinhwang92/React_hooks/tree/master#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
